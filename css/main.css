@@ -65,8 +65,8 @@ img {
 
 .banner {
   position: absolute;
-  top: 35%;
-  left: 65%;
+  top: 10em;
+  left: 68%;
   font-weight: 400;
 }
 
@@ -80,10 +80,6 @@ h3 {
   background: linear-gradient(to right, #F4E06C, white);
 }
 
-p {
-  text-align: center;
-}
-
 h4 {
   font-size: 1.5rem;
   background-color: #71BDC1;
@@ -92,7 +88,6 @@ h4 {
   padding: 0.25em;
   font-weight: 400;
   margin: 0;
-  clear: both;
 }
 
 .pasta {
@@ -101,8 +96,16 @@ h4 {
 
 .banner-pasta {
   position: absolute;
-  colour: white;
-  background-colour: none;
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  bottom: -40px;
+}
+
+.specials {
+  text-align: center;
+  line-height: 2em;
 }
 
 figure {
@@ -113,7 +116,7 @@ figure {
 
 figcaption {
   text-align: center;
-  padding: 0.25em 0 0.25em 0;
+  padding: 0.25em 0 1em 0;
 }
 
 .beers {
@@ -124,7 +127,15 @@ figcaption {
 p {
   font-family: 'Open Sans', sans-serif;
   padding: 0.5em;
-  margin: 0.5em 0 0 0;
+  margin: 0 0 0 0;
 }
 
-.
+.art-patricia {
+  position: relative;
+}
+
+.patricia {
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+}
