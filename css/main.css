@@ -130,12 +130,31 @@ p {
   margin: 0 0 0 0;
 }
 
-.art-patricia {
+.art {
   position: relative;
 }
 
-.patricia {
+.art-banner {
   position: absolute;
-  background-color: transparent;
+  color: white;
   text-align: center;
+  width: 100%;
+  top: 5px;
+}
+
+footer {
+  background-color: rgba(113, 189, 193, 0.4);
+}
+
+
+.hours {
+  float: left;
+  width: 50%;
+  background-color: rgba(113, 189, 193, 0.4);
+}
+
+.contact {
+  float: left;
+  width: 50%;
+  background-color: rgba(113, 189, 193, 0.4);
 }
