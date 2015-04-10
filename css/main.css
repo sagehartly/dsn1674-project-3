@@ -5,3 +5,57 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+  margin: 0;
+}
+
+header {
+  background-color: #71BDC1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-color: black;
+
+
+  font-size: 1.5rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  float: left;
+  width: 33.333%;
+
+  border-right: 1px solid #71BDC1;
+}
+
+.nav a {
+  display: block;
+  padding: 0.4rem 0;
+  width: 100%;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #F4E06C;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
