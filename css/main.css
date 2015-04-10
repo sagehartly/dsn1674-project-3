@@ -17,11 +17,12 @@ header {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   margin: 0;
   padding: 0.5em;
   text-align: center;
+  width: 100%;
 }
 
 .nav {
@@ -65,19 +66,22 @@ img {
 
 .banner {
   position: absolute;
-  top: 10em;
+  top: 8em;
   left: 68%;
   font-weight: 400;
 }
 
+.title {
+  background: linear-gradient(to right, #F4E06C, white);
+}
+
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
   text-align: center;
-  background-color: #F4E06C;
-  padding: 0.25em 0 0.25em 0;
+  padding: 0.5em 0 0.5em 0;
   margin: 0;
-  background: linear-gradient(to right, #F4E06C, white);
+
 }
 
 h4 {
@@ -100,7 +104,7 @@ h4 {
   width: 100%;
   text-align: center;
   z-index: 2;
-  bottom: -40px;
+  bottom: -20px;
 }
 
 .specials {
@@ -116,7 +120,7 @@ figure {
 
 figcaption {
   text-align: center;
-  padding: 0.25em 0 1em 0;
+  padding: 0.75em 0 0.75em 0;
 }
 
 .beers {
@@ -142,10 +146,24 @@ p {
   top: 5px;
 }
 
+.events {
+  background-color: rgba(244, 224, 108, 0.4);
+}
+
+.band {
+  width: 50%;
+  float: left;
+  padding: 1em 0 0 0;
+}
+
+.band-text {
+  clear: both;
+  padding: 1em;
+}
+
 footer {
   background-color: rgba(113, 189, 193, 0.4);
 }
-
 
 .hours {
   float: left;
