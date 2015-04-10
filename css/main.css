@@ -8,6 +8,7 @@ html {
 
 body {
   font-family: 'Shadows Into Light Two', cursive;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -19,7 +20,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 400;
   margin: 0;
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
 }
 
@@ -29,7 +30,6 @@ h1 {
   padding: 0;
   background-color: black;
 
-
   font-size: 1.5rem;
   list-style-type: none;
   text-align: center;
@@ -38,7 +38,6 @@ h1 {
 .nav li {
   float: left;
   width: 33.333%;
-
   border-right: 1px solid #71BDC1;
 }
 
@@ -46,7 +45,6 @@ h1 {
   display: block;
   padding: 0.4rem 0;
   width: 100%;
-
   color: #fff;
   text-decoration: none;
 }
@@ -58,4 +56,46 @@ h1 {
 
 img {
   width: 100%;
+}
+
+.steak {
+  position: relative;
+}
+
+.banner {
+  position: absolute;
+  top: 40%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: #F4E06C;
+  padding: 0.25em 0 0.25em 0;
+  background: linear-gradient(to right, #F4E06C, white);
+}
+
+p {
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5rem;
+  background-color: #71BDC1;
+  text-align: center;
+  color: white;
+  padding: 0.25em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.pasta {
+  position: relative;
+}
+
+.banner-pasta {
+  position: absolute;
+  colour: white;
+  background-colour: none;
 }
