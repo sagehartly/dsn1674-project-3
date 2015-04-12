@@ -66,9 +66,10 @@ img {
 
 .banner {
   position: absolute;
-  top: 8em;
+ top: 8em;
   left: 68%;
   font-weight: 400;
+  margin: 0;
 }
 
 .title {
@@ -163,6 +164,7 @@ p {
 
 footer {
   background-color: rgba(113, 189, 193, 0.4);
+  text-align: center;
 }
 
 .hours {
