@@ -10,10 +10,17 @@ body {
   font-family: 'Shadows Into Light Two', cursive;
   font-weight: 400;
   margin: 0;
+  font-size: 1rem;
 }
 
 header {
   background-color: #71BDC1;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 0;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -106,6 +113,7 @@ h4 {
   text-align: center;
   z-index: 2;
   bottom: -20px;
+  linear-gradient:
 }
 
 .specials {
@@ -129,14 +137,32 @@ figcaption {
   background-color: rgba(244, 224, 108, 0.4);
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  padding: 0.5em;
-  margin: 0 0 0 0;
+.beer-logo1 {
+  float: left;
+  width: 30%;
+}
+
+.beer-text1 {
+  float: left;
+  width: 60%;
+  padding: 3em 0 0 0;
+}
+
+.beer-logo2 {
+  float: left;
+  width: 30%;
+  clear: both;
+}
+
+.beer-text2 {
+  float: left;
+  width: 70%;
+  padding: 3em 0 0 0;
 }
 
 .art {
   position: relative;
+  clear: both;
 }
 
 .art-banner {
