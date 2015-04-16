@@ -73,14 +73,21 @@ img {
 
 .banner {
   position: absolute;
- top: 8em;
+  top: 8em;
   left: 68%;
   font-weight: 400;
   margin: 0;
+  font-size: 1.5em;
 }
 
 .title {
   background: linear-gradient(to right, #F4E06C, white);
+}
+
+.home-text {
+  text-align: center;
+  line-height: 2em;
+  padding: 1em 0 1em 0;
 }
 
 h3 {
@@ -135,6 +142,7 @@ figcaption {
 .beers {
   clear: both;
   background-color: rgba(244, 224, 108, 0.4);
+  overflow: hidden;
 }
 
 .beer-logo1 {
@@ -145,7 +153,7 @@ figcaption {
 .beer-text1 {
   float: left;
   width: 60%;
-  padding: 3em 0 0 0;
+  padding: 5% 0 0 0;
 }
 
 .beer-logo2 {
@@ -157,7 +165,7 @@ figcaption {
 .beer-text2 {
   float: left;
   width: 70%;
-  padding: 3em 0 0 0;
+  padding: 5% 0 0 0;
 }
 
 .art {
