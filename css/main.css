@@ -153,27 +153,29 @@ figcaption {
   width: 30%;
 }
 
-.beer-text1 {
+.beer-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Shadows Into Light Two', cursive;
+  padding: 0;
+  float: left;
+  padding: 5% 0 0 0;
+}
+
+.beer-text {
   float: left;
   width: 60%;
-  padding: 5% 0 0 0;
 }
 
 .beer-logo2 {
   float: left;
   width: 30%;
   clear: both;
+  padding: 0 0 1em 0;
 }
 
-.beer-text2 {
-  float: left;
-  width: 70%;
-  padding: 5% 0 0 0;
-}
-
-.art {
+.art1, .art2 {
   position: relative;
-  clear: both;
 }
 
 .art-banner {
@@ -181,7 +183,11 @@ figcaption {
   color: white;
   text-align: center;
   width: 100%;
-  top: 5px;
+  bottom: 0px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 0.5em 0;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 }
 
 .events {
@@ -189,7 +195,7 @@ figcaption {
 }
 
 .band {
-  width: 60%;
+  width: 70%;
   float: left;
   padding: 1em 0 0 0;
 }
