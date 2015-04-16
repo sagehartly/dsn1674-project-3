@@ -67,17 +67,17 @@ img {
   display: block;
 }
 
-.steak {
+.home {
   position: relative;
 }
 
 .banner {
   position: absolute;
-  top: 8em;
   left: 68%;
   font-weight: 400;
   margin: 0;
-  font-size: 1.5em;
+  bottom: 10px;
+  font-size: 1.5rem;
 }
 
 .title {
@@ -91,7 +91,7 @@ img {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
   padding: 0.5em 0 0.5em 0;
@@ -109,7 +109,7 @@ h4 {
   margin: 0;
 }
 
-.pasta {
+.menu1 {
   position: relative;
 }
 
@@ -119,8 +119,11 @@ h4 {
   width: 100%;
   text-align: center;
   z-index: 2;
-  bottom: -20px;
-  linear-gradient:
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
+  bottom: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, transparent, black);
+  padding: 2em 0 1em 0;
 }
 
 .specials {
@@ -186,9 +189,20 @@ figcaption {
 }
 
 .band {
-  width: 50%;
+  width: 60%;
   float: left;
   padding: 1em 0 0 0;
+}
+
+.events-date {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 25%;
+  margin: 0 0 0 0.5em;
+  float: left;
+  padding: 10% 0 0 0;
+  text-align: center;
 }
 
 .band-text {
