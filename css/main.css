@@ -89,6 +89,8 @@ img {
   text-align: center;
   line-height: 2em;
   padding: 1em 0 1em 0;
+  font-size: 1.25em;
+  font-family: 'Shadows Into Light Two', cursive;
 }
 
 h3 {
@@ -141,6 +143,7 @@ figure {
 figcaption {
   text-align: center;
   padding: 0.75em 0 0.75em 0;
+  font-size: 1.5em;
 }
 
 .beers {
@@ -192,18 +195,31 @@ figcaption {
   text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
 }
 
+.art-text {
+  padding: 0em
+}
+
 .events {
   background-color: rgba(244, 224, 108, 0.4);
+}
+
+.icon {
+  float: left;
+  width: 15%;
+  padding: 1em 0 0 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.events-text {
+  float: left;
+  width: 70%;
 }
 
 .band {
   width: 70%;
   float: left;
   padding: 1em 0 0 0;
-}
-
-.events-text {
-  text-align: center;
 }
 
 .events-date {
