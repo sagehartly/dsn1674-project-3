@@ -236,9 +236,8 @@ figcaption {
 }
 
 .events-date {
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 700;
   width: 25%;
   margin: 0 0 0 0.5em;
   float: left;
@@ -254,16 +253,11 @@ figcaption {
 footer {
   background-color: rgba(113, 189, 193, 0.4);
   text-align: center;
+  overflow: hidden;
 }
 
-.hours {
+.footer-text {
   float: left;
   width: 50%;
-  background-color: rgba(113, 189, 193, 0.4);
-}
-
-.contact {
-  float: left;
-  width: 50%;
-  background-color: rgba(113, 189, 193, 0.4);
+  line-height: 1.5rem;
 }
