@@ -57,7 +57,7 @@ h1 {
   border-right: 1px solid #71BDC1;
 }
 
-.nav a {
+a {
   display: block;
   padding: 0.4rem 0;
   width: 100%;
@@ -281,4 +281,14 @@ footer {
   float: left;
   width: 50%;
   line-height: 1.5rem;
+}
+
+.backtotop {
+  background-color: #71BDC1;
+  font-weight: bold;
+  clear: both;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  padding: 0;
 }
